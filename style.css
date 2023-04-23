@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-image: url(./Images/hU6Jsz.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 668px;
+    position: fixed;
+}
+.inputs{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 140px;
+}
+.search{
+    height: 35px;
+    width: 790px;
+    border: solid deepskyblue;
+    border-radius: 10px;
+    font-size: 30px;
+    padding-left: 7px;
+    text-transform: capitalize;
+    color: deepskyblue;
+}
+button#searchBtn {
+    width: 115px;
+    background-color: white;
+    color: deepskyblue;
+    font-size: 24px;
+    font-family: cursive;
+    border-radius: 9px;
+    border: solid blue;
+}
+
+button#searchBtn:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    border-color: aquamarine;
+}
+.weatherDetails {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    height: 150px;
+    width: 320px;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-right: 594px;
+    margin-top: 50px;
+    border: solid 3px skyblue;
+    border-radius: 6px;
+    color: blue;
+}
+p.degree {
+    padding-top: 14px;
+    font-size: 40px;
+}
+h2.cityName {
+    font-size: 40px;
+}
+img#clouds {
+    height: 110px;
+}
+h1.heading {
+    text-align: center;
+    padding-top: 27px;
+    color: #00e7ff;
+    font-size: 60px;
+    font-family: serif;
+}
